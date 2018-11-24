@@ -1,0 +1,17 @@
+div .location {
+	width: 10rem;
+	height: 10rem;
+	background-color: blue;
+}
+
+div .selected {
+	width: 10rem;
+	height: 10rem;
+	background-color: yellow;
+}
+
+.column {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+}
