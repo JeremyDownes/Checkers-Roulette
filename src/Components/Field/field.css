@@ -2,16 +2,50 @@ div .location {
 	width: 10rem;
 	height: 10rem;
 	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 
-div .selected {
-	width: 10rem;
-	height: 10rem;
-	background-color: yellow;
+.active, .white, .black, .king {
+		background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 1.5rem;
+}
+
+.active{
+	background-color: red;
 }
 
 .column {
-	background-color: red;
+	background-color: grey;
 	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	align-items: center
+}
+
+.white{
+	background-color: white;
+}
+
+.black{
+	background-color: black;
+}
+
+.king{
+	background-image: url('../../resources/images/king.png');
+}
+
+.container {
+	background-color: grey;
+	height:100vh;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }

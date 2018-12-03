@@ -1,0 +1,54 @@
+input {
+	background-image: url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiWufXkhu3YAhUSyVMKHf7UB4oQjRwIBw&url=https%3A%2F%2Fcodepo8.github.io%2Fcanvas-images-and-pixels%2F&psig=AOvVaw24GIpU7CvE2H_wcFKmyj5z&ust=1516761385993557');
+	background-color: red;
+	width: 1.75vw;
+	height: 5vh;
+	position: absolute;
+	margin-left: -1.75vw;
+	opacity: .01;
+}
+
+img {
+	position: relative;
+	left: 0%;
+	bottom: 50%;
+	height:8vh;
+}
+
+#player {
+	position: absolute;
+}
+
+.lefting {
+  animation: goLeft 1s linear
+}
+
+.righting {
+  animation: goRight 1s linear
+}
+
+.upping {
+  animation: goUp 1s linear
+}
+
+.downing {
+  animation: goDown 1s linear
+}
+
+@keyframes goRight {
+	0% { position: relative; left: 0rem;}
+	100% { position: relative; left: 3rem; }
+}
+
+@keyframes goLeft {
+	0% { position: relative; right: 0rem;}
+	100% { position: relative; right: 3rem; }
+}
+@keyframes goUp {
+	0% { position: relative; bottom: 0rem;}
+	100% { position: relative; bottom: 3rem; }
+}
+@keyframes goDown {
+	0% { position: relative; top: 0rem;}
+	100% { position: relative; top: 3rem; }
+}

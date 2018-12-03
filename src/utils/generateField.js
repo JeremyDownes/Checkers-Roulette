@@ -1,4 +1,4 @@
-const Field = (x,y)=> {
+ const Field = (x,y)=> {
 
 				let x0 = 0
 				let y0 = 0
@@ -6,7 +6,7 @@ const Field = (x,y)=> {
 				while(y0<y) {
 					let row = []
 					while(x0<x) {
-						row.push([x0,y0])
+						row.push({location: [x0,y0]})
 						x0++
 					}
 					column.push(row)
@@ -17,4 +17,4 @@ const Field = (x,y)=> {
 
 }
 
-export default Field
+module.exports = Field

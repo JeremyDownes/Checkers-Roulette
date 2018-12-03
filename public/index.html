@@ -2,13 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAA4f8AAAAAAO0zAAAAAP8ADO0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERESAAIiAREREAAiIAAiIREgACQgACQgEiAAIiAAIiAAAiIAAiIAAiACIgACIgACIAIiAAIiAAIiIAAiIAAiIAIgACIgACIgAiAAIiAAIiAAAiIAAiIAAiECMgACMgACERIiAAIiAAERERAiIAAhERERERERERERH//wAA8A8AAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAPAPAAD//wAA" rel="icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="stylesheet" type="text/css" href="./reset.css">
 
-    <title>React App</title>
+    <title>Checkers Roulette</title>
   </head>
   <body>
     <noscript>
@@ -27,7 +26,6 @@
     const bakg = window.innerHeight > window.innerWidth ? {backgroundSize:'auto 80vh, 100vw 100vh', backgroundPosition: '20vh center ' } : {backgroundSize: '65vh auto, 100vw 100vh', backgroundPosition: 'center 20vh' }
     $('html').css({fontSize: unit/50+'px', overflow: 'hidden'})
     $('div.App').css(bakg)
-    $(window).resize(function(){location.reload();})
   })
   </script>
   </body>
